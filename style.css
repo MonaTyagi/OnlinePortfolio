@@ -1,0 +1,202 @@
+#bigwrapper{
+     background-image: url('OrangeWood.png');
+     background-attachment: fixed;
+     width: 100%;
+     margin-top: 100px;
+ }
+ 
+ .header1{
+     position: fixed;
+     border: 1px solid #1b2900;
+     width: 100%;
+     height:90px;
+     margin-left: 0px;
+     margin-top: -100px;
+     /* background:rgb(168, 2, 244); */
+     background:#1b2900;
+     background-position: center;
+     opacity: 0.9;
+ }
+ .h1{
+    color: #8cff00;
+    text-align: left;
+    padding: 5px;
+    padding-left: 30px;
+ }
+/* -------------------------------------------------------------------*/
+/* Fixed left side navigation */ 
+ /* #mySidenav a {
+  position: fixed;
+  right: 20px;
+  transition: 0.5s;
+  padding: 10px 10px 10px 1px;
+  width: 20px;
+  text-decoration: none;
+  color: black;
+  border-radius:10px;
+} */
+
+/* #mySidenav a:hover {
+  right: 0;
+} */
+
+/* #resume{
+    top: 420px;
+    background-color: #e6a400;
+    text-align: right;
+    font-family: 'Open Sans', 'sans-serif';
+    }
+    #contact{
+  top: 620px;
+  background-color: #f44336;
+  text-align: right;
+  font-family: 'Open Sans', 'sans-serif';
+  } */
+/* -------------------------------------------------------------------*/
+
+body{
+font-family: 'Merriweather Sans', 'Georgia','sans-serif';
+background-color: #f4f3f3;
+margin:0;
+text-align: center;
+}
+
+.divmain{
+padding-left: 10%;
+padding-right: 10%;
+padding-top: 1%;
+padding-bottom: 1%;
+text-align: center;
+/* margin:1%; */
+
+}
+.divmainPic{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10%;
+    padding-bottom: 1%;
+    text-align: center;
+    /* margin:1%; */
+    
+    }
+
+h1{
+  font-family: 'Sacramento', cursive;
+  font-size: 5.4rem;
+  color: rgb(0, 0, 0);
+  margin: 0 auto 0 auto;/*here top and bottom are 0 and left and right are auto*/
+}
+
+h2{
+  font-family: 'Sacramento', cursive;
+  text-align:center;
+  font-size: 2.5rem;
+color:  rgb(0, 0, 0);
+}
+
+h3{
+    font-family:'Courier New', Courier, monospace;
+    text-align:center;
+    font-size: 1.0rem;
+  color: rgb(0,0,0);
+  }
+  h4{
+    font-family: 'Sacramento', cursive;
+    color: rgb(0, 0, 0);
+    }
+
+/* .top-container{
+  padding-top: 50px;
+
+} */
+hr{
+border:0rem rgb(246, 136, 1);
+border-radius: 20px;
+border-bottom: none;
+width:50%;
+margin: 20px auto;
+}
+a{
+  color: lightgreen;
+text-decoration: none;
+margin:20px;
+
+}
+a:hover{
+  color: rgb(7, 7, 47);
+}
+.bottom-container{
+  background:white;
+}
+.footer-text{
+  color: #fff;
+}
+
+
+.image-class{
+  padding:5px;
+}
+
+
+
+
+div.polaroid {
+    width: 250px;
+    padding: 10px 20px 20px 10px;
+    border: 1px solid #BFBFBF;
+    background-color: white;
+    box-shadow: 10px 10px 5px #3e3d3d;
+   
+  }
+  
+
+  div.polaroidAboutMePage {
+    width: 1000px;
+    padding: 5px 5px 5px 5px;
+    background-color: white;
+    box-shadow: 10px 10px 5px #3e3d3d;
+  }
+
+  div.feedbackPage {
+    width: 300px;
+    padding: 10px 10px 20px 10px;
+    border: 1px solid #BFBFBF;
+    background-color: white;
+    box-shadow: 10px 10px 5px #3e3d3d;
+  }
+
+ div.rotate_right {
+    float: left;
+    -ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Safari */
+    transform: rotate(7deg);
+  }
+  
+  div.rotate_left {
+    float: left;
+    -ms-transform: rotate(-8deg); /* IE 9 */
+    -webkit-transform: rotate(-8deg); /* Safari */
+    transform: rotate(-8deg);
+  }
+  .movingdiv:hover{
+    animation: shake 0.5s;
+    animation-iteration-count: 1;
+  }
+
+    
+img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  
+#qualificationBurger:hover{
+    height:50px;
+    width:50px;
+}
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    100% { transform: translate(1px, 2px) rotate(0deg); }   
+  }
