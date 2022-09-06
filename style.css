@@ -24,6 +24,12 @@
     padding-left: 30px;
       height:4%;
  }
+@media(max-width:900px){
+     .h1{
+          height:2%;
+     }
+}
+     
 /* -------------------------------------------------------------------*/
 /* Fixed left side navigation */ 
  /* #mySidenav a {
