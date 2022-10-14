@@ -162,6 +162,7 @@ div.polaroid {
   }
   div.polaroid_image {
     width: 100px;
+       height:100px;
     padding: 10px 20px 20px 10px;
     border: 1px solid #BFBFBF;
     background-color: white;
